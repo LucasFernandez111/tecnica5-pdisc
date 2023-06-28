@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" novalidate>
+      <label for="nombre">Nombre: </label>
+      <input type="text" id="nombre" required />
+      <label for="apellido">Apellido: </label>
+      <input type="text" id="apellido" required />
+      <label for="calendario">Fecha de Nacimiento: </label>
+      <input type="date" id="calendario" />
+      <label for="caja-numero">Sueldo Bruto: </label>
+      <input
+        type="number"
+        min="100000"
+        max="500000"
+        required
+        id="caja-numero"
+      />
+
+      <input type="submit" />
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

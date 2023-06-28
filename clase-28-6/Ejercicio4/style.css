@@ -1,0 +1,15 @@
+.apagado{
+    height: 402px;
+    width: 309.5px;
+   background-image: url("./imagenes/img.png");
+   
+
+
+    
+}
+.encendido{
+    height: 402px;
+    width: 309.5px;
+   background-image: url("./imagenes/img.png");
+    background-position: 357px 0;
+}
